@@ -1,7 +1,7 @@
 html {
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
-    background-color: #9fb0cc;
+    background-color: #9fb0cc;    
 }
 body {
     width: 1000px;
@@ -9,6 +9,7 @@ body {
     background-color: #fa837a;
     padding: 0 30px;
     border: 30px solid sandybrown;
+    min-height: 100vh;
 }
 h1 {
     font-size: 60px;
