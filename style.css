@@ -29,3 +29,18 @@ li {
     line-height: 2;
     letter-spacing: 1px;
 }
+media only screen and (max-width: 768px) {
+    #header {
+        display: none;
+    }
+    #mobileNavBar {
+        display: flex;
+    }
+    #mobileNavBar a {
+        color: white;
+    }
+    .bannerContainer {
+        text-align: center;
+        flex-direction: column;
+    }
+}
